@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #0a0f2c, #000);
+  color: #f1f1f1;
+}
+
+body.light-mode {
+  background: #f5f5f5;
+  color: #222;
+}
+
+body.light-mode header,
+body.light-mode .project-card {
+  background: #fff;
+}
+
+body.light-mode a {
+  color: #0077cc;
+}
+
+body.light-mode form input,
+body.light-mode form textarea {
+  background: #eee;
+  color: #000;
+}
+
+body.light-mode form button {
+  background: #0077cc;
+  color: white;
+}
+
+#theme-toggle {
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+}
+
+.images {
+  display: flex;
+  width: 300px;
+  height: 500px;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background: #1a1a2e;
+}
+
+nav {
+  margin-top: 1rem;
+}
+nav a {
+  margin: 0 1rem;
+  color: #00bfff;
+  text-decoration: none;
+}
+
+section {
+  padding: 2rem;
+}
+
+.project-card {
+  background: #1a1a2e;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.project-card img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 5px;
+}
+
+.project-info {
+  margin-top: 1rem;
+}
+
+.project-info a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+  color: #00bfff;
+  text-decoration: none;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+  background: #111;
+  color: #fff;
+}
+
+[id^="count-"] {
+  font-size: 25px;
+  color: #00bfff;
+  margin-top: 0.5rem;
+}
+
+
+
+form button {
+    margin-bottom: 20px;
+  background: #00bfff;
+  color: #000;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#form-status {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #00bfff;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+#form-status.show {
+  opacity: 1;
+}
+
+.hidden {
+  display: none;
+}
+
+
+.social-links a {
+  margin-right: 1rem;
+  color: #00bfff;
+  text-decoration: none;
+  font-size: 1rem;
+}
