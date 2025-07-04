@@ -44,6 +44,14 @@ trackProjectView("count-weather", "weather-app");
   });
 });
 
+// ✅ Site View Counter using CountAPI
+fetch("https://api.countapi.xyz/hit/portfolio.triumph101.dev/visits")
+  .then(res => res.json())
+  .then(data => {
+    document.getElementById("site-views").textContent = data.value;
+  });
+
+
 // Theme toggle
 const toggleBtn = document.getElementById("theme-toggle");
 const currentTheme = localStorage.getItem("theme");
