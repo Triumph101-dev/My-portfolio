@@ -96,11 +96,13 @@ form input, form textarea {
   color: #fff;
 }
 
-[id^="count-"] {
-  font-size: 25px;
-  color: #00bfff;
-  margin-top: 0.5rem;
+.view-count {
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-top: 0.2rem;
+  font-style: italic;
 }
+
 
 
 
